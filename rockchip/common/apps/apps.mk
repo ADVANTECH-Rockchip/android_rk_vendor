@@ -25,8 +25,7 @@ endif
 
 ifeq ($(strip $(TARGET_BOARD_PLATFORM)), rk3288)
 PRODUCT_PACKAGES += \
-    WinStartService \
-    projectX
+    WinStartService
 endif
 
 ifeq ($(strip $(TARGET_BOARD_PLATFORM)), rk312x)
