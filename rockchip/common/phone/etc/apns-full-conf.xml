@@ -1134,9 +1134,19 @@
   <apn carrier="China Unicom 3G" mcc="460" mnc="01" apn="3gnet" port="80" type="default,supl" /> 
   <apn carrier="中国联通 3g 彩信 (China Unicom)" mcc="460" mnc="01" apn="3gwap" mmsc="http://mmsc.myuni.com.cn" mmsproxy="10.0.0.172" mmsport="80" type="mms" />
   <apn carrier="China Unicom MMS" mcc="460" mnc="01" apn="uniwap" mmsc="http://mmsc.myuni.com.cn" mmsproxy="10.0.0.172" mmsport="80" type="mms" /> 
+  <apn carrier="沃3G连接互联网 (China Unicom)" mcc="460" mnc="06" apn="3gnet" type="default,supl" />
+  <apn carrier="沃3G手机上网 (China Unicom)" mcc="460" mnc="06" apn="3gwap" port="80" proxy="10.0.0.172" server="http://www.wo.com.cn" type="default" />
+  <apn carrier="联通彩信 (China Unicom)" mcc="460" mnc="06" apn="3gwap" mmsc="http://mmsc.myuni.com.cn" mmsport="80" mmsproxy="10.0.0.172" type="mms" />
+  <apn carrier="沃3G连接互联网 (China Unicom)" mcc="460" mnc="09" apn="3gnet" type="default,supl" />
+  <apn carrier="沃3G手机上网 (China Unicom)" mcc="460" mnc="09" apn="3gwap" port="80" proxy="10.0.0.172" server="http://www.wo.com.cn" type="default" />
+  <apn carrier="联通彩信 (China Unicom)" mcc="460" mnc="09" apn="3gwap" mmsc="http://mmsc.myuni.com.cn" mmsport="80" mmsproxy="10.0.0.172" type="mms" />
   <apn carrier="China Telecom" apn="CTNET"  mcc="460" mnc="03" user="ctnet@mycdma.cn" password="vnet.mobi" server="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default" /> 
   <apn carrier="China Telecom wap" apn="CTWAP"  mcc="460"  mnc="03" user="ctwap@mycdma.cn" password="vnet.mobi" server="" proxy="" port="" mmsproxy="10.0.0.200" mmsport="80" mmsc="http://mmsc.vnet.mobi" type="default" />
   <apn carrier="China Telecom Mms" apn="CTWAP"  mcc="460" mnc="03" user="ctwap@mycdma.cn" password="vnet.mobi" server="" proxy="10.0.0.200" port="80" mmsproxy="10.0.0.200" mmsport="80" mmsc="http://mmsc.vnet.mobi" type="mms" />
+  <apn carrier="中国电信 (China Telecom) ctlte" mcc="460" mnc="11" apn="ctnet" port="80" type="default,hipri,supl" />
+  <apn carrier="中国电信 (China Telecom) GPRS" mcc="460" mnc="11" apn="ctnet" password="vnet.mobi" type="default,hipri,internet" user="ctnet@mycdma.cn" />
+  <apn carrier="中国电信 (China Telecom) WAP" mcc="460" mnc="11" apn="ctwap" password="vnet.mobi" port="80" proxy="10.0.0.200" type="default,hipri,httpproxy,admin,supl" user="ctwap@mycdma.cn" />
+  <apn carrier="中国电信彩信 (China Telecom)" mcc="460" mnc="11" apn="ctwap" mmsc="http://mmsc.vnet.mobi" mmsport="80" mmsprotocol="2.0" mmsproxy="10.0.0.200" password="vnet.mobi" type="mms" user="ctwap@mycdma.cn" />
   <apn carrier="遠傳電信(Far EasTone) (Fetnet01)" mcc="466" mnc="01" apn="fetnet01" proxy="210.241.199.199" port="80" type="default,supl" />
   <apn carrier="FarEasTone MMS" mcc="466" mnc="01" apn="fetnet01" mmsc="http://mms" mmsproxy="210.241.199.199" mmsport="9201" type="mms" />
   <apn carrier="FarEasTone" mcc="466" mnc="01" apn="internet" type="default,supl" />
