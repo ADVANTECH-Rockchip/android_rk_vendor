@@ -1814,7 +1814,43 @@
 	mmsc="http://mmsnrj" 
 	type="mms" /> 
 
+<apn carrier="China Unicom M2M"
+        mcc="460"
+        mnc="06"
+        apn="unim2m.njm2mapn"
+        user=""
+        server=""
+        password=""
+        mmsc="" />
 
+<apn carrier="China CMNET NEW"
+        mcc="460"
+        mnc="11"
+        apn="cmnet"
+        user=""
+        server=""
+        password=""
+        mmsc="" />
 
+<apn carrier="China CMWAP NEW"
+        mcc="460"
+        mnc="04"
+        apn="cmwap"
+        user=""
+        server=""
+        password=""
+        proxy=""
+        port=""
+        mmsproxy="10.0.0.172"
+        mmsc="" />
+
+<apn carrier="China BJYBYG.XFDZ"
+        mcc="460"
+        mnc="06"
+        apn="BJYBYG01.XFDZ.NJM2MAPN"
+        user=""
+        server=""
+        password=""
+        mmsc="" />
 
 </apns>
