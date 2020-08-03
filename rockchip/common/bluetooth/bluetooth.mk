@@ -46,4 +46,5 @@ PRODUCT_COPY_FILES += \
     $(foreach file, $(BT_FIRMWARE_FILES), $(CUR_PATH)/lib/firmware/$(file):$(TARGET_COPY_OUT_VENDOR)/etc/firmware/$(file))
 
 #include vendor/rockchip/common/bluetooth/console_start_bt/console_start_bt.mk
+include vendor/rockchip/common/bluetooth/mrvl/mrvl.mk
 
