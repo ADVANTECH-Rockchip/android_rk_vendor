@@ -3,6 +3,9 @@ PRODUCT_COPY_FILES += \
     $(foreach file, $(WIFI_KO_FILES), $(CUR_PATH)/wifi/modules/$(file):system/lib/modules/$(file))
 
 PRODUCT_COPY_FILES += \
+    $(foreach file, $(WIFI_KO_FILES), $(CUR_PATH)/wifi/modules/$(file):vendor/lib/modules/wifi/$(file))
+
+PRODUCT_COPY_FILES += \
         $(CUR_PATH)/wifi/iwconfig:$(TARGET_COPY_OUT_VENDOR)/bin/iwconfig \
         $(CUR_PATH)/wifi/iwlist:$(TARGET_COPY_OUT_VENDOR)/bin/iwlist
 
